@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, TouchableOpacity, StyleSheet, Text, Alert} from 'react-native';
 
-class Game extends React.Component {
+class App extends React.Component {
   state = {
     gameState: [[0, 0, 0], [0, 0, 0], [0, 0, 0]],
     currentPlayer: 1,
@@ -196,4 +196,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Game;
+export default App;
